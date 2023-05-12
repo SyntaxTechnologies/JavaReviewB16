@@ -4,7 +4,7 @@ public class BankOfAmerica {
 
     public static void main(String[] args) {
 
-        BankAccount bank=new BankAccount();
+        BankAccount bank=new BankAccount(); //calling default constructor
         bank.acccountHolder="John Smith";
         bank.accountNumber=4643635376L;
         bank.accBalance=20;
