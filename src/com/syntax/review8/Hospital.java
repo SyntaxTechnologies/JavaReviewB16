@@ -7,6 +7,8 @@ public class Hospital {
         doc.printInfo();
 
         Doctor doc2=new Doctor("Jane", "Smith", "Cardiologyst");
-        doc2.printInfo();
+        doc2.printInfo(); //public
+        doc2.treat(); //protected
+        doc2.prescribeMedicine("antibiotics"); //default
     }
 }
