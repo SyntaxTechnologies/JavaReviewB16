@@ -12,5 +12,6 @@ public class SuperMarket {
 
         app.getClass(); //Method comes from Object class -> is the parent class of all Objects in Java
 
+        String str;
     }
 }

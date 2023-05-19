@@ -10,7 +10,6 @@ public class Fruit {
     }
 
     public void eat(){
-
         System.out.println("We can eat "+name);
     }
 }
