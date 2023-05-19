@@ -2,6 +2,8 @@ package com.syntax.review9;
 
 public class ShapeTest {
 
+    public static final String STR="Hello"; //Constant - that is not changeable
+
     public static void main(String[] args) {
 
         // new Shape("Circle", "Yellow");  we cannot create an Object of the Abstract Class

@@ -1,5 +1,16 @@
 package com.syntax.review9;
 
+interface Drawable{
+
+    //by default all variables are public static final
+    boolean DRAW=true; // //you do not need to type public static final boolean DRAW=true;
+
+    //no constructor
+
+    // by default all methods by default are public and abstract
+    void drawing(); //you do not need to type public abstract void drawing();
+}
+
 public abstract class Shape {
     public String type;
     protected String color;
