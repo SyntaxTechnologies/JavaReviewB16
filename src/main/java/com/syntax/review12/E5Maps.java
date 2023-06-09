@@ -12,7 +12,11 @@ public class E5Maps {
         map.put("Orange",4);
         map.put("Mango",3);
         map.put("Banana",30);
-        map.forEach((key,value)-> {System.out.println(key+" "+value);});
+        map.forEach((key,value)-> {
+            if(key.contains("a") && value>4)
+            System.out.println(key+" "+value);
+
+        });
 
 
 
