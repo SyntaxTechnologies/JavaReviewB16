@@ -21,6 +21,7 @@ public class ExcelReader {
         var excelData = read(Constants.EXCEL_FILE_PATH, "Sheet1");
         System.out.println(excelData);
 
+
     }
 
 
@@ -40,7 +41,6 @@ public class ExcelReader {
                 int noOfCells = row.getPhysicalNumberOfCells();
                 for (int j = 0; j < noOfCells; j++) {
                     String key = headerRow.getCell(j).toString();
-                    // Break till 9:01
                     String value = row.getCell(j).toString();
                     rowMap.put(key, value);
                 }
