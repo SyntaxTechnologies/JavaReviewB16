@@ -1,0 +1,8 @@
+FileHandling:
+    Reading/writing/deleting/moving/editing files is called file handling in programming.
+Steps:
+    1)We must have the location of the file.
+    2) navigating to the location of file or bringing the file into the memory.
+    for example FileInputStream to read and FileOutputStream to write the data.
+    3) Software/ Libraries to handle that file for example XSSFWorkBook for xlsx files
+    and Properties for .properties file.
